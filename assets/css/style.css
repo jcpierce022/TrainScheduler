@@ -1,12 +1,18 @@
 body {
-    background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+    background-color: black;
+    background: url(/assets/images/Train\ background.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+       -o-background-size: cover;
+       background-size: cover;
     }
+    
     .card {
         opacity: 0.85;
         font-weight: bold;
     }
     .jumbotron {
-        background: white;
+        background: lightblue;
         opacity: .80;
         font-family: fantasy;
     
